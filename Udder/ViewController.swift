@@ -18,5 +18,9 @@ class ViewController: UIViewController {
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         print("1")
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        //11111
+    }
 }
 
